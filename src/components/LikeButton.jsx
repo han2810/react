@@ -28,7 +28,7 @@ function LikeButton() {
         {liked ? "❤️ Đã thả tim" : "🖤 Chưa thả tim"}
       </h3>
 
-      <p>Số lượt thích: {count}</p>
+      <p>Like {count}</p>
 
       {/* Sự kiện onClick gọi hàm handleClick */}
       <button onClick={handleClick}>{liked ? "Bỏ thích" : "Thích ngay"}</button>
